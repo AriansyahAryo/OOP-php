@@ -3,6 +3,7 @@
 class Orang {
     public $age = 49;
     public $name;
+    public $pekerjaan;
 
     function getAge(){
        return  $this->age;
@@ -32,3 +33,5 @@ echo PHP_EOL;
 $orang3->name="YUUSHA";
 echo "KIMMII NOOO NAWAAA DAREEEEEE " . $orang3->name;
 echo PHP_EOL;
+$orang3->pekerjaan="JADI PENYELAMAT DUNIA ISEKAI";
+echo "Pekerjaaanya adalah berpetualang " . $orang3->pekerjaan;
