@@ -11,5 +11,6 @@ class anime {
 }
 
 $anime1 = new anime;
-// echo 'Anime ini Berjudul' . $anime1->judul . 'Authornya adalah '  . $anime1->pencipta;
- var_dump($anime1); 
+ echo 'Anime ini Berjudul' . $anime1->judul . 'Authornya adalah '  . $anime1->pencipta;
+//  var_dump($anime1); 
+ 
